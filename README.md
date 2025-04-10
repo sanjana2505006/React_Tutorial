@@ -1,20 +1,43 @@
-<!-- Starts the development server  -->
-npm start
+## Available Scripts
 
-<!-- Bundles the app into static files for prduction -->
-npm run build 
+In the project directory, you can run:
 
-<!-- Starts the test runner  -->
-npm test
+### `npm start`
 
-<!-- Removes this tool and copies build dependencies, configuration files and scripts the app directory. If you do this, you can't go back! -->
-npm run eject 
+Starts the development server.  
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-<!-- we don't use this generally much  -->
+---
 
+### `npm run build`
 
-<!-- // package json have all the dependcies and have all the info  -->
+Bundles the app into static files for production.  
+It optimizes the build for the best performance.
 
-<!-- whatever i have written above to use all that are written or given in "package json file" -->
+---
 
+### `npm test`
 
+Starts the test runner to test your app logic and components.
+
+---
+
+### `npm run eject`
+
+**Note:** This is a one-way operation. Once you `eject`, you can’t go back!  
+It removes the toolchain abstraction and copies all build dependencies, configuration files, and scripts to your project directory.
+
+---
+
+> ⚠️ This command is not commonly used unless you need full control over the build setup.
+
+---
+
+### 📦 `package.json`
+
+The `package.json` file contains all metadata, project info, and dependencies needed to run and build your app.  
+Everything you've seen above is defined and configured inside it.
+
+---
+
+📝 Feel free to explore and customize as needed!
